@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/CNUC/static/css/main.fd730900.chunk.css",
+    "main.js": "/CNUC/static/js/main.2594b051.chunk.js",
+    "main.js.map": "/CNUC/static/js/main.2594b051.chunk.js.map",
+    "runtime-main.js": "/CNUC/static/js/runtime-main.344cd309.js",
+    "runtime-main.js.map": "/CNUC/static/js/runtime-main.344cd309.js.map",
+    "static/css/2.d3ff1f59.chunk.css": "/CNUC/static/css/2.d3ff1f59.chunk.css",
+    "static/js/2.3ba72274.chunk.js": "/CNUC/static/js/2.3ba72274.chunk.js",
+    "static/js/2.3ba72274.chunk.js.map": "/CNUC/static/js/2.3ba72274.chunk.js.map",
+    "index.html": "/CNUC/index.html",
+    "precache-manifest.6eab5c80929eae14e9a5217aead9122f.js": "/CNUC/precache-manifest.6eab5c80929eae14e9a5217aead9122f.js",
+    "service-worker.js": "/CNUC/service-worker.js",
+    "static/css/2.d3ff1f59.chunk.css.map": "/CNUC/static/css/2.d3ff1f59.chunk.css.map",
+    "static/css/main.fd730900.chunk.css.map": "/CNUC/static/css/main.fd730900.chunk.css.map",
+    "static/js/2.3ba72274.chunk.js.LICENSE": "/CNUC/static/js/2.3ba72274.chunk.js.LICENSE",
+    "static/media/04.jpg": "/CNUC/static/media/04.f93dd131.jpg",
+    "static/media/cnuc.png": "/CNUC/static/media/cnuc.a193d172.png",
+    "static/media/img02.png": "/CNUC/static/media/img02.01523d0c.png",
+    "static/media/logoMMA.png": "/CNUC/static/media/logoMMA.0bf06dcc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.344cd309.js",
+    "static/css/2.d3ff1f59.chunk.css",
+    "static/js/2.3ba72274.chunk.js",
+    "static/css/main.fd730900.chunk.css",
+    "static/js/main.2594b051.chunk.js"
+  ]
+}
