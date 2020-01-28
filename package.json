@@ -1,0 +1,113 @@
+{
+  "homepage": "",
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "fa-icons": "^0.1.9",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
+    "material-icons-react": "^1.0.4",
+    "node-sass": "^4.13.0",
+    "ol": "^6.1.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-parallax": "^3.0.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "styled-components": "^4.4.1",
+    "validator": "^12.1.0",
+    "yarn": "^1.21.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "pretty": "prettier --write \"src/**/*.js\"",
+    "pretty_php": "prettier --write \"../back-end/**/*.php\" \"!../back-end/vendor/**\"",
+    "precommit": "lint-staged",
+    "lint": "eslint --debug src/",
+    "lint:write": "eslint --debug src/ --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,css,json,md}": [
+      "prettier --write",
+      "npm run pretty",
+      "npm run pretty_php",
+      "jest --bail --findRelatedTests",
+      "git add"
+    ],
+    "*.{js,jsx,md}": [
+      "eslint --fix"
+    ],
+    "*.php": [
+      "php ./vendor/bin/php-cs-fixer fix --config .php_cs",
+      "git add"
+    ]
+  },
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": [
+      "node_modules/(?!(ol)/)"
+    ],
+    "setupFiles": [
+      "jest-canvas-mock"
+    ]
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.12.0",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-jest-enzyme": "^6.0.2",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "gh-pages": "^2.2.0",
+    "husky": "^1.1.2",
+    "jest-canvas-mock": "^2.2.0",
+    "lint-staged": "^7.3.0",
+    "parcel": "^1.12.4",
+    "prettier": "^1.19.1",
+    "webpack-merge": "^4.2.2"
+  }
+}

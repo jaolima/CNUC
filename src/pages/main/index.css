@@ -1,0 +1,171 @@
+.background {
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.322);
+}
+.select {
+  box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.322);
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  background-color: #ffffff;
+}
+
+.title {
+  position: relative;
+  top: 22%;
+  overflow: visible;
+  line-height: 65px;
+  margin-top: -6px;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: rgba(21, 29, 65, 1);
+  letter-spacing: 0.05px;
+  right: 3%;
+  font-family: fantasy;
+  padding: 3%;
+  font-size-adjust: auto;
+}
+
+.caixaTexto {
+  font-size: 26px;
+  position: absolute;
+  top: 44%;
+  text-size-adjust: auto;
+}
+
+.logoLateral {
+  right: 114px !important;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.322)) !important;
+  position: relative !important;
+  max-width: 644px !important;
+  max-height: 100% !important;
+  overflow: visible !important;
+  animation: glow 1s infinite alternate !important;
+}
+
+.socialNetwork {
+  position: relative;
+  top: 31%;
+  left: 81%;
+  background: transparent;
+}
+
+.social {
+  width: 48px;
+}
+
+.cnuc {
+  position: relative;
+  top: 20%;
+  font-size: 25px !important;
+  font-family: sans-serif;
+  right: 2%;
+}
+
+.caixaPesquisa {
+  position: relative;
+  top: 30%;
+  right: 3%;
+}
+
+.UC-text {
+  font-family: 'Roboto';
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 2px solid #136235;
+  padding: 2px 0 2px 0;
+  margin-bottom: 10px;
+}
+.mapBar {
+  margin-bottom: 0px !important;
+}
+
+.backgroundMap {
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+.cards {
+  width: 18rem;
+  height: 11rem;
+  float: left;
+  margin: 9px 37px 0px 15px;
+  position: relative;
+  left: 5%;
+}
+
+.cards:last-child {
+  width: 18rem;
+  height: 11rem;
+  float: left;
+  margin-right: 0 !important;
+}
+
+.whatsIsCnuc {
+  background-color: #ffffff12 !important;
+  animation: glow 1s infinite alternate;
+  box-shadow: 0 0 10px -10px #aef4af;
+  width: auto;
+  padding: 87px 0px 87px 0px;
+}
+
+.boxShadow {
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 11px black;
+}
+
+/* Wrapper */
+.wrapper {
+  padding: 6em 0 4em 0;
+  position: relative;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  filter: brightness(0.5);
+}
+
+.wrapper .inner {
+  margin: 0 auto;
+  width: auto;
+  position: relative;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.filter {
+  filter: brightness(0.5);
+}

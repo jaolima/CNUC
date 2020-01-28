@@ -1,0 +1,31 @@
+.pOne {
+  margin: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #edbc63;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.pTwo {
+  margin: 30px;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+}
+
+.spanOne {
+  background-color: #586b57;
+  color: white;
+  border-radius: 7px;
+  padding: 1px 20px 1px 20px;
+}
+
+.hOne {
+  padding: 20px 20px 0px 20px;
+  color: #325c75;
+  font-size: 18px;
+}
+
+.asterisk {
+  color: red;
+}

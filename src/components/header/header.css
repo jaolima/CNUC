@@ -1,0 +1,59 @@
+.btn_access {
+  top: 14%;
+  left: 14%;
+  font-size: 13px;
+  position: relative;
+  align-items: center;
+  font-family: unset;
+  text-decoration: none;
+}
+
+.backgroundHeader {
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.textMenu {
+  color: #292929 !important;
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.btnLogin {
+  align-items: center;
+  position: relative;
+  width: 50%;
+  left: 50%;
+  margin: 10px;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 20px;
+}
+
+#a {
+  font-family: 'Roboto';
+  color: #efecec;
+  padding: 0px 20px 0px 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#ab {
+  font-family: 'Roboto';
+  padding: 2px 2px 2px 25px;
+  font-size: 15px;
+}
+
+.navbar.navbar-dark.top-nav-collapse .navbar-nav .nav-item .nav-link {
+  color: red;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: red;
+}

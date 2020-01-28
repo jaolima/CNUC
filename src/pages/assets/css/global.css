@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  max-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #ffffff;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body,
+input,
+button {
+  color: #222;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  background: #4b504e;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}

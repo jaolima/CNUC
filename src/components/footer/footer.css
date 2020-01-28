@@ -1,0 +1,10 @@
+.backgroundFooter {
+  background-color: #343a40;
+  color: white;
+}
+.content {
+  min-height: calc(100vh - 55px);
+}
+.footer {
+  height: 50px;
+}
